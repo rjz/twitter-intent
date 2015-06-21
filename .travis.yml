@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - 0.10
+  - 0.12
+
+sudo: false
+
+env:
+  - NODE_ENV=test
+
+before_script: ./tasks/travis_before_script.sh
+

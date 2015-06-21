@@ -1,0 +1,26 @@
+{
+  "name": "twitter-intent",
+  "version": "0.0.0",
+  "description": "Utilities for building twitter intents",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "lint": "jshint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjz/twitter-intent"
+  },
+  "keywords": [],
+  "author": "RJ Zaworski <rj@rjzaworski.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjz/twitter-intent/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "~2.5.2",
+    "mocha": "~1.13.0"
+  }
+}
