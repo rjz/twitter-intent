@@ -3,8 +3,6 @@ Twitter Intent
 
 [![Build
 Status](https://travis-ci.org/rjz/twitter-intent.svg?branch=master)](https://travis-ci.org/rjz/twitter-intent)
-[![Coverage
-Status](https://coveralls.io/repos/rjz/twitter-intent/badge.svg?branch=master)](https://coveralls.io/r/rjz/twitter-intent?branch=master)
 
 A utility for building [twitter intents](https://dev.twitter.com/web/intents)
 
