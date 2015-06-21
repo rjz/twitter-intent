@@ -6,7 +6,18 @@ Status](https://travis-ci.org/rjz/twitter-intent.svg?branch=master)](https://tra
 [![Coverage
 Status](https://coveralls.io/repos/rjz/twitter-intent/badge.svg?branch=master)](https://coveralls.io/r/rjz/twitter-intent?branch=master)
 
-A utility for building [twitter intents](https://dev.twitter.com/web/tweet-button/web-intent)
+A utility for building [twitter intents](https://dev.twitter.com/web/intents)
+
+Example
+-------------------------------------------------------------------------------
+
+    var twitterIntent = require('twitter-intent');
+    var href = twitterIntent.tweet.url({
+      text: 'Tweet me!',
+      hashtag: ['node.js', 'npm']
+    });
+
+    console.log('<a href="' + href + '">Click me!</a>');
 
 Installation
 -------------------------------------------------------------------------------
@@ -21,9 +32,6 @@ Testing
 Lint and run test suite:
 
     $ npm test
-
-To integrate coveralls.io and travis-ci, add this repo to your coveralls/travis
-accounts and update .coveralls.yml to use the correct repo token.
 
 License
 -------------------------------------------------------------------------------
