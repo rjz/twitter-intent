@@ -1,21 +1,24 @@
 Twitter Intent
 ===============================================================================
 
-[![Build
-Status](https://travis-ci.org/rjz/twitter-intent.svg?branch=master)](https://travis-ci.org/rjz/twitter-intent)
+[![Build Status](https://travis-ci.org/rjz/twitter-intent.svg?branch=master)](https://travis-ci.org/rjz/twitter-intent)
+[![Coverage Status](https://coveralls.io/repos/github/rjz/twitter-intent/badge.svg?branch=master)](https://coveralls.io/github/rjz/twitter-intent?branch=master)
+
 
 A utility for building [twitter intents](https://dev.twitter.com/web/intents)
 
 Example
 -------------------------------------------------------------------------------
 
-    var twitterIntent = require('twitter-intent');
-    var href = twitterIntent.tweet.url({
-      text: 'Tweet me!',
-      hashtag: ['node.js', 'npm']
-    });
+```js
+var twitterIntent = require('twitter-intent');
+var href = twitterIntent.tweet.url({
+  text: 'Tweet me!',
+  hashtag: ['node.js', 'npm']
+});
 
-    console.log('<a href="' + href + '">Click me!</a>');
+console.log('<a href="' + href + '">Click me!</a>');
+```
 
 Installation
 -------------------------------------------------------------------------------

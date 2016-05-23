@@ -11,3 +11,8 @@ env:
 
 before_script: ./tasks/travis_before_script.sh
 
+script:
+  - npm run coverage
+
+after_script:
+  - cat coverage/lcov.info | coveralls

@@ -1,3 +1,7 @@
+/* globals describe, it: false */
+
+'use strict';
+
 var assert = require('assert');
 
 var intent = require('../index');

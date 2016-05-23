@@ -1,3 +1,5 @@
+'use strict';
+
 function partial (fn) {
   var args = [].slice.call(arguments, 1);
   return function () {
@@ -50,7 +52,7 @@ function qsFactory (ALLOWED_PARAMS, params) {
     }
   });
   return formatted.join('&');
-};
+}
 
 module.exports = function endpoint (path, validParams) {
   var url = 'https://twitter.com/intent' + path;

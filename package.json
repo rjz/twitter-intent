@@ -4,9 +4,10 @@
   "description": "Utilities for building twitter intents",
   "main": "index.js",
   "scripts": {
+    "lint": "jshint .",
     "pretest": "npm run lint",
     "test": "mocha",
-    "lint": "jshint"
+    "coverage": "istanbul cover _mocha ./test"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "coveralls": "~2.11.9",
+    "istanbul": "~0.4.3",
     "jshint": "~2.5.2",
     "mocha": "~1.13.0"
   }
