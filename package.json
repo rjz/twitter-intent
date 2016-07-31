@@ -21,9 +21,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "coveralls": "~2.11.9",
-    "istanbul": "~0.4.3",
-    "jshint": "~2.5.2",
-    "mocha": "~1.13.0"
+    "coveralls": "^2.11.12",
+    "istanbul": "^0.4.4",
+    "jshint": "^2.9.2",
+    "mocha": "^2.5.3"
   }
 }
