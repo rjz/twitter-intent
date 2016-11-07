@@ -10,9 +10,22 @@ A utility for building [twitter intents](https://dev.twitter.com/web/intents)
 Example
 -------------------------------------------------------------------------------
 
+ES5
 ```js
 var twitterIntent = require('twitter-intent');
 var href = twitterIntent.tweet.url({
+  text: 'Tweet me!',
+  hashtags: ['node.js', 'npm']
+});
+
+console.log('<a href="' + href + '">Click me!</a>');
+```
+
+ES6
+```js
+import twitterIntent from 'twitter-intent';
+
+const href = twitterIntent.tweet.url({
   text: 'Tweet me!',
   hashtags: ['node.js', 'npm']
 });
