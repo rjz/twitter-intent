@@ -1,6 +1,6 @@
 {
   "name": "twitter-intent",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utilities for building twitter intents",
   "main": "index.js",
   "scripts": {
